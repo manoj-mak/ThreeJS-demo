@@ -1,0 +1,63 @@
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  overflow-x: hidden;
+
+}
+
+body,
+html {
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+
+.webgl{
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav{
+  color: aliceblue;
+  z-index: 2;
+  position:relative;
+  padding: 4rem 8rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  
+}
+
+nav a:hover{
+  color: crimson;
+  transition: 0.5s;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+}
+
+.title{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  text-align: center;
+  z-index: 2;
+  color: aliceblue;
+  font-size: 3rem;
+}
