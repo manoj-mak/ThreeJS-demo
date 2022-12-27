@@ -25,7 +25,7 @@ nav{
   color: aliceblue;
   z-index: 2;
   position:relative;
-  padding: 4rem 8rem;
+  padding: 4rem 4rem;
   display: flex;
   justify-content: space-between;
 
@@ -48,7 +48,8 @@ nav a:hover{
 nav ul{
   display: flex;
   list-style: none;
-  gap: 4rem;
+  
+ 
 }
 
 .title{
